@@ -1,0 +1,64 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 07/02/2021 07:11
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-crown:before { content: "\f100"; }
+.flaticon-carrots:before { content: "\f101"; }
+.flaticon-heart:before { content: "\f102"; }
+.flaticon-lamp:before { content: "\f103"; }
+.flaticon-balance:before { content: "\f104"; }
+.flaticon-lunch-box:before { content: "\f105"; }
+.flaticon-softdrinks:before { content: "\f106"; }
+.flaticon-fork:before { content: "\f107"; }
+.flaticon-list:before { content: "\f108"; }
+.flaticon-street-name:before { content: "\f109"; }
+.flaticon-phone-call:before { content: "\f10a"; }
+.flaticon-placeholder:before { content: "\f10b"; }
+    
+    $font-Flaticon-crown: "\f100";
+    $font-Flaticon-carrots: "\f101";
+    $font-Flaticon-heart: "\f102";
+    $font-Flaticon-lamp: "\f103";
+    $font-Flaticon-balance: "\f104";
+    $font-Flaticon-lunch-box: "\f105";
+    $font-Flaticon-softdrinks: "\f106";
+    $font-Flaticon-fork: "\f107";
+    $font-Flaticon-list: "\f108";
+    $font-Flaticon-street-name: "\f109";
+    $font-Flaticon-phone-call: "\f10a";
+    $font-Flaticon-placeholder: "\f10b";
